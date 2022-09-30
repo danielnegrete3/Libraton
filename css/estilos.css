@@ -149,8 +149,6 @@ header{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-
-
 }
 
 .imagen{
@@ -168,11 +166,24 @@ header{
     margin-bottom: 400px;
 }
 
+.informacion input{
+    background-color: #4f5050;
+    border-radius: 10%;
+    color: #eeeeee;
+    margin-top: 40px;
+}
+
+.informacion input:hover{
+    background-color: #bcbebf;
+    cursor: pointer;
+}
+
 #cantidad{
     width: 50px;
     color: #eeeeee;
     background-color: #2c3034;
     border:2px solid rgba(200,200,200, 0.5);
+    margin-right: 20px;
 }
 
 #sugerencias{
@@ -330,3 +341,78 @@ header{
     cursor: pointer;
     background-color: #bcbebf;
 }
+
+/* fin carrito */
+/* Compra */
+
+#Pantalla{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#Pantalla .formularios div{
+    width: 50%;
+    float: left;
+}
+
+#Pantalla .formularios #Boton{
+    margin-top: 50px;
+    width: 80%;
+
+}
+
+#Pantalla #paqueterias{
+    width: 30%;
+    float: left;
+    text-align: center;
+
+}
+
+#Pantalla #paqueterias .entrada{
+    display: inline-block;
+    margin-top: 20%;
+
+}
+
+#Pantalla #paqueterias img{
+    align-content: center;
+    width: auto;
+    height: 80px;
+    float: left;
+}
+
+#Pantalla #paqueterias h3{
+    text-align: center;
+}
+
+#Pantalla #paqueterias div
+{
+    margin-top: 25px;
+    width: 40%;
+    float: left;
+}
+
+#Pantalla #boton{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    float: left;
+    text-align: center;
+}
+
+#Pantalla .formularios input{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#Pantalla .formularios #comentario{
+    height: 50px;
+}
+
+/*Fin Compra */
+
+/* Seguimiento */
+
