@@ -177,9 +177,11 @@ header{
 
 #sugerencias{
     width: 80%;
-    margin-right: auto;
-    margin-left: auto ;
+    margin-right: 10%;
+    margin-left: 10% ;
+    margin-top: 30px;
     text-align: center;
+    display: inline-block;
 }
 
 #sugerencias .Libro{
@@ -219,6 +221,7 @@ header{
     color: #eeeeee;
     border-radius: 6px;
 }
+
 .formularios input::placeholder{
     text-align: center;
 }
@@ -243,4 +246,87 @@ header{
     text-decoration:none;
     margin-right: 40px;
 
+}
+
+#dUduario{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto ;
+}
+
+#dUduario img{
+    float: left;
+}
+
+#dUduario img:first-child{
+    width: 20%;
+}
+
+#dUduario .formularios div{
+    float: left;
+    margin-left: 15%;
+    width: 50%;
+}
+
+#dUduario .formularios div input{
+    text-align: center;
+    width: 80%;
+}
+
+.formularios img {
+    width: 5%;
+}
+
+.formularios img:hover {
+    cursor: pointer;
+    background-color: #4f5050;
+}
+
+#carro{
+    width: 55%;
+    margin-left: 10%;
+    margin-right: 5%;
+    float: left;
+}
+
+#carro .Libro{
+   width: 100%;
+    display: inline-block;
+    border:2px solid rgba(125,125,125, 0.9);
+}
+
+#carro .Libro form{
+    float: left;
+    margin-right: 20%;
+}
+
+#carro .Libro:hover{
+    cursor: pointer;
+}
+
+#carro .Libro img{
+    width: auto;
+    height: 200px;
+    margin-right: 10%;
+    float: left;
+}
+
+#barra{
+    border-left: 2px solid rgba(125,125,125, 0.2);
+    float: left;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+}
+
+#barra input{
+    background-color: #4f5050;
+    color: #eeeeee;
+    width: 25%;
+    border-radius: 10%;
+}
+
+#barra input:hover{
+    cursor: pointer;
+    background-color: #bcbebf;
 }

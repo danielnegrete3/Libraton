@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/estilos.css">
+    <title>Carrito</title>
+</head>
+<body>
+<!--inicio de encabezado-->
+<header id="encabezado">
+  <nav id="header-nav" >
+    <div >
+      <div >
+        <div class="navbar-brand">
+          <a href="index.html" id="Titulo"><h1>Libraton</h1></a>
+          <img src="imagenes/logo.png" alt="Todo sobre libros" id="Logo" onclick="location.href='index.html'">
+
+        </div>
+
+        <input type="text" name="busqueda" placeholder="Buscar" id="Buscador">
+        <img src="imagenes/lupa.png" onclick="" id="lupa">
+
+        <div id="Paginas">
+          <a href="Usuario.html">Usuario</a>
+          <a href="Carrito.html">Carrito</a>
+          <a href="Seguimiento.html">Seguimiento</a>
+          <a href="Proveedores.html">Proveedores</a>
+        </div>
+
+        <img src="imagenes/usuario.png"  onclick="location.href='Login.html'" id="usuario">
+      </div>
+
+
+    </div><!-- .container -->
+  </nav><!-- #header-nav -->
+</header>
+<!--final de encabezado-->
+
+<!-- carrito -->
+<div id="carro">
+  <h2>
+    Carrito de compras
+  </h2>
+  <article class="Libro" onclick="location.href='Venta.html'" >
+    <img src="imagenes/cienaños.jpg">
+    <div>
+      <h2>Cien años de soledad</h2>
+      <p>Cien años de soledad es una novela del escritor colombiano Gabriel García Márquez, ganador del Premio Nobel de Literatura en 1982. Es considerada
+        una obra maestra de la literatura hispanoamericana y universal, así como una de las obras más traducidas y leídas en español.​</p>
+      <p>Autor: Gabriel García Márquez</p>
+      <form action="" method="post">
+        <label for="Cantidad">Cantidad</label>
+        <input type="number" name="Cantidad"  value="1" required id="cantidad"/>
+      </form>
+      <h3>costo: $500</h3>
+    </div>
+  </article>
+</div>
+<!-- fin de carrito -->
+
+<!--barra -->
+<div id="barra">
+  <div>
+    <h2>Proceder al pago</h2>
+    <p>1 Articulo</p>
+    <h3>$500</h3>
+  </div>
+  <input type="submit" value="Pagar" name="Bot1" class="entrada" onclick="location.href='Compra.html'"/>
+</div>
+
+<!-- fin de barra -->
+
+<!-- Sugerencias -->
+<div id="sugerencias">
+  <h3>Libros sugeridos</h3>
+  <article class="Libro" onclick="location.href='Venta.html'" >
+    <img src="imagenes/cienaños.jpg">
+    <p>Cien años de soledad</p>
+    <h3>$500</h3>
+  </article>
+  <article class="Libro" onclick="location.href='Venta.html'" >
+    <img src="imagenes/cienaños.jpg">
+    <p>Cien años de soledad</p>
+    <h3>$500</h3>
+  </article>
+  <article class="Libro" onclick="location.href='Venta.html'" >
+    <img src="imagenes/cienaños.jpg">
+    <p>Cien años de soledad</p>
+    <h3>$500</h3>
+  </article>
+  <article class="Libro" onclick="location.href='Venta.html'" >
+    <img src="imagenes/cienaños.jpg">
+    <p>Cien años de soledad</p>
+    <h3>$500</h3>
+  </article>
+  <article class="Libro" onclick="location.href='Venta.html'" >
+    <img src="imagenes/cienaños.jpg">
+    <p>Cien años de soledad</p>
+    <h3>$500</h3>
+  </article>
+</div>
+<!-- fin Sugerencias -->
+
+<footer class="panel-footer" id="pie">
+  <p>copyright Daniel Alejandro Negrete Gomez 2022</p>
+</footer>
+</body>
+</html>

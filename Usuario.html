@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -10,9 +10,8 @@
   <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="css/estilos.css">
-    <title>Nuevo Usuario</title>
+    <title>Usuario</title>
 </head>
-
 <body>
 <!--inicio de encabezado-->
 <header id="encabezado">
@@ -44,41 +43,47 @@
 </header>
 <!--final de encabezado-->
 
-<form action="" method="post" class="formularios">
-  <p class="Nombre">Nombre</p>
-  <input type="text" name="nombre" placeholder="Nombres" required />
-  <br />
+<!-- Datos del usuario-->
+<div id="dUduario">
+  <img src="imagenes/usuario.png">
 
-  <p class="Apellidos">Apellidos</p>
-  <input type="text" name="Apellidos" placeholder="Apellidos" required />
-  <br />
+  <form action="" method="post" class="formularios" >
 
-  <p class="Usuario">Nombre de usuario</p>
-  <input type="text" name="Usuario" placeholder="Usuario" required />
-  <br />
+    <div>
+      <p>Usuario</p>
+      <input type="text" name="usuario" value="Dang"  readonly/>
+    </div>
 
-  <p class="Telefono">Telefono</p>
-  <input type="number" name="Telefono" placeholder="Telefono" required />
-  <br />
+    <img src="imagenes/lapis.png">
 
-  <p class="Correo">Correo</p>
-  <input type="text" name="Correo" placeholder="Correo" required />
-  <br />
+    <div>
+      <p>Nombre de usuario</p>
+      <input type="text" name="nombre" value="Daniel Negrete"  readonly/>
+    </div>
 
-  <p class="Contraseña">Contraseña</p>
-  <input type="text" name="cont" placeholder="Contraseña" required />
-  <br />
+    <img src="imagenes/lapis.png">
 
-  <p class="Contraseña2">Comprobar Contraseña</p>
-  <input type="text" name="cont" placeholder="Comprobar Contraseña" required />
-  <br />
+    <div>
+      <p>Telefono</p>
+      <input type="text" name="tel" value="3335025240"  readonly/>
+    </div>
 
-  <input type="submit" value="Registrar" name="Bot1" class="entrada"/>
-</form>
-<!-- final de formulario-->
+    <img src="imagenes/lapis.png">
+
+    <div>
+      <p>Correo</p>
+      <input type="text" name="correo" value="daniel.negrete5666@alumnos.udg.mx"  readonly/>
+    </div>
+
+  </form>
+
+</div>
+<!-- fin de Datos del usuario-->
+
 <footer class="panel-footer" id="pie">
   <p>copyright Daniel Alejandro Negrete Gomez 2022</p>
 </footer>
+
 
 </body>
 </html>
