@@ -415,4 +415,58 @@ header{
 /*Fin Compra */
 
 /* Seguimiento */
+.Pantalla{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 
+.Pantalla .formularios{
+    width: 45%;
+    margin-left: 10%;
+    margin-right: auto;
+    float: left;
+}
+
+.Pantalla .formularios div{
+    width: 100%;
+}
+
+.Pantalla div{
+    width: 20%;
+    float: left;
+}
+
+.Pantalla div img{
+    width: 50%;
+}
+
+.Pantalla  #proveedores{
+    width: 80%;
+}
+
+.Pantalla #Linea{
+    width: 3%;
+    margin-top: 40px;
+
+}
+
+#Lista{
+    margin-top: 30px;
+    width: 15%;
+    float: left;
+    text-align: left;
+}
+
+#Lista ul{
+    list-style: none;
+}
+
+#Lista ul li{
+    margin-bottom: 40%;
+}
+
+#Lista ul li:last-child{
+    margin-bottom: 0;
+}
